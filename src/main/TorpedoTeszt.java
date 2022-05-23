@@ -5,10 +5,10 @@ public class TorpedoTeszt {
     
     
     public static void main(String[] args) {
-        new TorpedoTeszt().tesztLoves(4);
+        new TorpedoTeszt().tesztLovesTalalt(4);
     }
 
-    public String tesztLoves(int poz) {
+    public String tesztLovesTalalt(int poz) {
         Hajo hajo = new Hajo();
         String t = hajo.talalat(poz);
         assert t.equals("találat"):"nem jó a találat ellenörzése";
